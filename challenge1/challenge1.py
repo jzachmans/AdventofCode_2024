@@ -29,7 +29,6 @@ def challenge1_part1(left_list, right_list):
 
 def challenge1_part2(left_list, right_list):
     sum_list = []
-    count = 0
     for i in left_list:
         matches = [x for x in right_list if i == x]
         if len(matches) > 0:
